@@ -60,7 +60,7 @@ end
 
 def count_elements(arr)	
 	arr.each do |element|
-	  cur = element
+	#  cur = element
 		element[:count] = 0
 		cur = element[:name]
 	arr.each do |element2|
