@@ -71,6 +71,29 @@ def count_elements(arr)
 	end.uniq
 end
 
+#require 'pry'
+def count_elements(arr)	
+	
+	arr.map do |element|
+	  #binding.pry
+	  cur = element
+	 # binding.pry
+		element[:count] = 0
+	#binding.pry
+		cur = element[:name]
+	#binding.pry
+	arr.map do |element2|
+		#	binding.pry
+			if element2[:name] == cur
+		#		binding.pry
+				element[:count] += 1
+		#	binding.pry
+			end
+	end
+	end.uniq
+#rr
+end
+
 
 
 
