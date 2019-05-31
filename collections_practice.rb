@@ -58,18 +58,18 @@ end
  
 
 
-def count_elements(arr)	
-	arr.each do |element|
-	  cur = element
-		element[:count] = 0
-		cur = element[:name]
-	arr.each do |element2|
-			if element2[:name] == cur
-				element[:count] += 1
-			end
-	end
-	end.uniq
-end
+# def count_elements(arr)	
+# 	arr.each do |element|
+# 	  cur = element
+# 		element[:count] = 0
+# 		cur = element[:name]
+# 	arr.each do |element2|
+# 			if element2[:name] == cur
+# 				element[:count] += 1
+# 			end
+# 	end
+# 	end.uniq
+# end
 
 #require 'pry'
 def count_elements(arr)	
